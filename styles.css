@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'IBM Plex Mono', monospace;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-span {
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.apresentaçao {
+    display: block;
+    color: #9400D3;
+    text-align: center;
+    width: 602px;
+    font-size: 25px;
+}
+
+h2 {
+    color: #9400D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #9400D3;
+}
+
+.box-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-h3 {
+    color: #9400D3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 46px;
+
+}
+
+.container-project {
+    width: 28em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 10px 100px 10px;
+}
+
+.container-project-conversor {
+    width: 28em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 21px 10px 100px 10px;
+
+}
+
+.container-project-mario {
+    width: 28em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 10px 100px 10px;
+
+}
+
+.technologie {
+    color: #9400D3;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: 13px;
+}
+
+
+
+img:hover {
+    outline: 1px solid #9400D3;
+    box-shadow: 0 0 27px #9400D3;
+    transition-duration: 0.8s;
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.contact {
+    background-color: #9400D3;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.whats-img {
+    margin-right: 15px;
+}
+
+.logos-apps {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media screen and (max-width:584px) {
+
+    body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .apresentaçao {
+        width: 373px;
+        font-size: 26px;
+        margin-left: auto;
+    }
+
+    h2 {
+        margin-left: 30px;
+    }
+
+    .box-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-clima,
+    .img-conversor,
+    .img-mario {
+        width: 25em;
+        height: 13em;
+        margin-left: 16px
+    }
+
+    .box-h3 {
+        font-size: 28px;
+        margin-left: 36px;
+    }
+
+    .technologie {
+        font-size: 17px;
+        margin-left: 13px;
+    }
+
+    .logo {
+        margin-left: 100px;
+    }
+
+    .contact {
+        width: 105%;
+    }
+
+
+
+
+
+
+}
